@@ -32,6 +32,7 @@ window.addEventListener("DOMContentLoaded", async (e) => {
           <h3 class="h5">${task.title}</h3>
           <input type="checkbox" id="miCheckbox" name="miCheckbox" style="margin-left: 15px">
       </div>
+      <p>${task.description}</p>
       <div>
         <button class="btn btn-primary btn-delete" data-id="${doc.id}">
           🗑 Delete

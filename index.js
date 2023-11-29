@@ -28,15 +28,16 @@ window.addEventListener("DOMContentLoaded", async (e) => {
 
       tasksContainer.innerHTML += `
       <div class="card card-body mt-2 border-primary">
-    <h3 class="h5">${task.title}<input type="checkbox" id="miCheckbox" name="miCheckbox"></h3>
-    <p>${task.description}</p>
-    <div>
-      <button class="btn btn-primary btn-delete" data-id="${doc.id}">
-        🗑 Delete
-      </button>
-      
-    </div>
-  </div>`;
+        <div style="display: flex;">
+          <h3 class="h5">${task.title}</h3>
+          <input type="checkbox" id="miCheckbox" name="miCheckbox">
+      </div>
+      <div>
+        <button class="btn btn-primary btn-delete" data-id="${doc.id}">
+          🗑 Delete
+        </button>
+      </div>
+      </div>`;
     });
 
     const btnsDelete = tasksContainer.querySelectorAll(".btn-delete");

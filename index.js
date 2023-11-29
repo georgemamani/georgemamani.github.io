@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", async (e) => {
       <button class="btn btn-primary btn-delete" data-id="${doc.id}">
         🗑 Delete
       </button>
-      
+      <input type="checkbox" id="miCheckbox" name="miCheckbox">
     </div>
   </div>`;
     });

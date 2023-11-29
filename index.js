@@ -30,7 +30,7 @@ window.addEventListener("DOMContentLoaded", async (e) => {
       <div class="card card-body mt-2 border-primary">
         <div style="display: flex;">
           <h3 class="h5">${task.title}</h3>
-          <input type="checkbox" id="miCheckbox" name="miCheckbox" style="margin-left: 15px;">
+          <input type="checkbox" id="miCheckbox" name="miCheckbox" style="margin-left: 15px">
       </div>
       <div>
         <button class="btn btn-primary btn-delete" data-id="${doc.id}">
